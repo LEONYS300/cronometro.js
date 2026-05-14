@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Orbitron", sans-serif;
+}
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:100vh;
+    gap: 2rem;
+    padding-top: 3rem;
+
+}
+.timer{
+    display: flex;
+    font-size: 35px;
+    font-weight: bold;
+  
+    
+}
+    
+
+#time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    min-width:90px;
+    
+
+}
+.separador{
+    font-size:60px ;
+    color: dimgrey;
+}
+
+.milesegundos{
+    font-size: 30px;
+    color: darkgray;
+    margin-top: 10px;
+}
+
+.buttons{
+    display: flex;
+    gap: 1rem;
+    
+
+}
+    #btn{
+        padding: 10px 20px;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 30px;
+        cursor: pointer;
+        border:  1px solid #ccc;
+        transition: all 0.2s ease-in-out;
+    }
+
+    
+
+
+
+.continue{
+    display: none;
+}
+
+
+
+.start:hover{
+    background-color:#39e75f;
+    transform:scale(1.1)
+}
+
+.restart:hover{
+    background-color:#ffff00 ;
+    transform:scale(1.1)
+}
+.stop:hover{
+    background-color: #f01e2c;
+    transform:scale(1.1)
+}
+
+
+.continue:hover{
+    background-color:#39e75f ;
+}
+
+
+@media  (max-width:450px){
+    .buttons{
+        display: flex;
+        flex-direction: column;
+   
+    }
+}
