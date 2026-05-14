@@ -16,8 +16,7 @@ reponsivo:
  - JavaScript
  
 
-
-    veja o projeto:
+ veja o projeto:
    
   <a href="https://leonys300.github.io/cronometro.js/"><img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/68f4edf1-eb04-47af-ab98-980295f30113"/>
 </a> 
